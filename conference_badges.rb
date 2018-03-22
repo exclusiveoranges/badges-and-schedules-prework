@@ -15,4 +15,3 @@ def assign_rooms(attendees)
     puts "Hello, #{attendee}! You'll be assigned to room #{index}"
   end
 end 
-    
