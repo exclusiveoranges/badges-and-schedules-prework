@@ -17,3 +17,14 @@ def assign_rooms(attendees)
   end
   return room_assignments
 end
+
+def printer
+  friendly_array = batch_badge_creator(attendees)
+  friendly_array.each do |greeting|
+    puts greeting
+  end
+  room_assignments = assign_rooms(attendees)
+  room_assignments.each do |assignment|
+    puts assignment
+  end
+end 
