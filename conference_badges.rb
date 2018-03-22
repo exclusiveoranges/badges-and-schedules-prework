@@ -18,7 +18,7 @@ def assign_rooms(attendees)
   return room_assignments
 end
 
-def printer
+def printer(attendees)
   friendly_array = batch_badge_creator(attendees)
   friendly_array.each do |greeting|
     puts greeting
