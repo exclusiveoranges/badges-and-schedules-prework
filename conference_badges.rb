@@ -7,4 +7,5 @@ def batch_badge_creator(attendees)
   attendees.each do |person|
     friendly_array.push(badge_maker(person))
   end
-end 
+  return friendly_array
+end
