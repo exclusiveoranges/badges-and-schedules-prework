@@ -3,7 +3,8 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(attendees)
+  friendly_array = []
   attendees.each do |person|
-    badge_maker(person)
+    friendly_array.push(badge_maker(person))
   end
 end 
